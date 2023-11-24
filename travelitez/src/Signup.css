@@ -1,0 +1,161 @@
+.App{
+    width: 1240px;
+    height: 595px;
+    overflow: hidden;
+    border-radius: 24px;
+    background: #FFF;
+    color:#009EE2
+}
+.mainHeading{
+    flex-shrink: 0;
+    color: white;
+    text-shadow: 0px 0px 20px black ;
+    font-family:Calligraffitti,cursive;
+    font-size: 70px;
+    font-style:italic;
+    font-weight: 400;
+    line-height: 48px;
+    width: 370px;
+    height: 44.83px;
+    position:absolute;
+    top: 5px;
+    left: 140px;
+    z-index: 1;
+}
+.subHeading{
+    flex-shrink: 0;
+    color: white;
+    text-shadow: 0px 0px 20px black ;
+    font-family:Calligraffitti,cursive;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    width: 377px;
+    height: 36px;
+    position:absolute;
+    top: 105px;
+    left: 130px;
+    z-index: 1;
+}
+.truck{
+      width: 624px;
+    height: 595px;;
+    background: url('./images/truck.jpg');
+    background-size:624px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:0%;
+    position: absolute;
+    left: 0px;
+}
+.welcome{
+    color: #009EE2;
+    font-family: Cabinet Grotesk;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    position: absolute;
+    top:0.1rem;
+    left: 50rem;
+}
+.userIcon{
+    width: 90px;
+    height: 90px; 
+    background: url(./images/userIcon.png),white;
+    background-size: cover;
+    flex-shrink: 0;
+    position: absolute;
+    left: 57rem;
+    top: 9rem;
+    z-index: 2;
+    overflow: hidden;
+    
+}
+.totalLogin{
+    width: 20rem;
+    height: 20rem; 
+    box-shadow: 0rem 0rem 0.5rem black;
+    position: absolute;
+    left: 50rem;
+    top: 12rem;
+    z-index: 1;
+}
+.loginTitle{
+    color: #009EE2;
+    font-family: Cabinet Grotesk;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    position: absolute;
+    top:13.5rem;
+    left: 53rem;
+}
+.mobileNumber{
+    height: 5rem;
+    width: 20rem;
+    position: relative;
+    top:18rem;
+    left: 52rem;
+    z-index: 2;
+}
+.mobileNumber > label{
+    position:relative;
+    left: 10000px;
+}
+.mobileNumber > input{
+    color: black;
+    border: 1px solid gray;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding:  0.2rem 0.2rem 0.2rem 0.8rem;
+    z-index: 2;
+}
+.confirmButton{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 0rem 0rem 0.2rem black;
+    position: relative;
+    top:1.5rem;
+    left: 4rem;
+    z-index: 2;
+}
+.or{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    text-align: center;
+    position: relative;
+    top:21rem;
+    left:21rem;
+    z-index: 2;
+}
+.googleImg{
+    width: 12rem;
+    height: 2rem;
+    position: relative;
+    top:21rem;
+    left:54rem;
+    z-index: 1;
+}
+.agreeMent{
+    color: #000;
+    font-size: 14px;
+    position: absolute;
+    top:34rem;
+    left:46rem;
+}
